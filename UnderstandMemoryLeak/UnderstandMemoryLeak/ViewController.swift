@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  UnderstandMemoryLeak
 //
-//  Created by Ashis Kumar Mishra on 22/05/24.
+//  Created by Soumya Ranjan Mishra on 22/05/24.
 //
 
 import UIKit
@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func homeButtonPressed(_ sender: UIButton) {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController else {return}
+        present(vc, animated: true, completion: nil)
+    }
 }
 
