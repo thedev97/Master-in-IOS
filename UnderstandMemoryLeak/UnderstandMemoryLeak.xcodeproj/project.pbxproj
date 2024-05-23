@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77866B962BFE3A39009202A8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77866B952BFE3A39009202A8 /* HomeViewController.swift */; };
 		77B5B4BF2BFE0E7E008436AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5B4BE2BFE0E7E008436AA /* AppDelegate.swift */; };
 		77B5B4C12BFE0E7E008436AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5B4C02BFE0E7E008436AA /* SceneDelegate.swift */; };
 		77B5B4C32BFE0E7E008436AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5B4C22BFE0E7E008436AA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77866B952BFE3A39009202A8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		77B5B4BB2BFE0E7E008436AA /* UnderstandMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnderstandMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B5B4BE2BFE0E7E008436AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B5B4C02BFE0E7E008436AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				77B5B4BE2BFE0E7E008436AA /* AppDelegate.swift */,
 				77B5B4C02BFE0E7E008436AA /* SceneDelegate.swift */,
 				77B5B4C22BFE0E7E008436AA /* ViewController.swift */,
+				77866B952BFE3A39009202A8 /* HomeViewController.swift */,
 				77B5B4C42BFE0E7E008436AA /* Main.storyboard */,
 				77B5B4C72BFE0E7F008436AA /* Assets.xcassets */,
 				77B5B4C92BFE0E7F008436AA /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				77B5B4C32BFE0E7E008436AA /* ViewController.swift in Sources */,
 				77B5B4BF2BFE0E7E008436AA /* AppDelegate.swift in Sources */,
 				77B5B4C12BFE0E7E008436AA /* SceneDelegate.swift in Sources */,
+				77866B962BFE3A39009202A8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
